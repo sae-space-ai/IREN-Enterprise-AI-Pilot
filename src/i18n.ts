@@ -3,14 +3,41 @@ export type Lang = 'es' | 'en';
 export const translations = {
   es: {
     appTitle: 'Piloto IREN Enterprise AI',
-    appSubtitle: 'Adopción de IA Empresarial & Demanda Cualificada',
+    appSubtitle: 'MONTEMOLIN-AIHUB · Adopción de IA Empresarial & Demanda Cualificada',
     disclaimer: 'AVISO: Esta es una propuesta no solicitada. No existe relación contractual con IREN S.p.A., ni clientes confirmados, ni campus operativo en Badajoz. Los datos de 300 MW y horizonte 2028+ provienen de fuentes públicas (iren.com). No se utiliza logotipo oficial ni se sugiere patrocinio.',
+    contact: {
+      label: 'Contacto Dirección General IREN',
+      href: 'https://www.iren.eu/contacts',
+      description: 'Dirección general y contacto corporativo IREN',
+    },
+    print: {
+      label: 'Imprimir',
+      title: 'IREN Enterprise AI — Piloto MONTEMOLIN-AIHUB',
+      date: 'Fecha de impresión',
+      confidential: 'Documento confidencial — Propuesta no solicitada',
+    },
     nav: {
       vision: 'Visión',
       plan: 'Plan 90 días',
       qualification: 'Cualificación 7/7',
       economics: 'Economía',
       decision: 'Decisión',
+    },
+    executive: {
+      title: 'Narrativa Ejecutiva',
+      subtitle: 'IREN Europe × MONTEMOLIN-AIHUB',
+      summary: 'Prototipo de validación de demanda cualificada para servicios de IA empresarial en el contexto de infraestructuras de computación de alta capacidad planificadas en la península ibérica.',
+      context: 'Contexto',
+      contextText: 'IREN S.p.A. ha anunciado planes para un centro de datos de 300 MW en Badajoz, con horizonte 2028+. Esta infraestructura podría habilitar servicios de IA empresarial de alto rendimiento. Sin embargo, no existe operación actual ni relación contractual.',
+      approach: 'Enfoque',
+      approachText: 'Este prototipo evalúa de forma estructurada si existe demanda cualificada real para dichos servicios, utilizando criterios verificables y sin datos inventados. La separación entre datos simulados y evidencias reales es fundamental.',
+      nextSteps: 'Siguientes pasos',
+      nextStepsList: [
+        'Validar los 7 criterios de cualificación con evidencia real',
+        'Completar gates de decisión antes de WP2',
+        'Definir stack, alojamiento, permisos y modelo de datos para backend',
+        'Implementar autenticación, roles, auditoría y protección RGPD',
+      ],
     },
     vision: {
       title: 'Visión del Piloto',
@@ -165,14 +192,41 @@ export const translations = {
   },
   en: {
     appTitle: 'IREN Enterprise AI Pilot',
-    appSubtitle: 'Enterprise AI Adoption & Qualified Demand',
+    appSubtitle: 'MONTEMOLIN-AIHUB · Enterprise AI Adoption & Qualified Demand',
     disclaimer: 'NOTICE: This is an unsolicited proposal. There is no contractual relationship with IREN S.p.A., no confirmed clients, and no operational campus in Badajoz. The 300 MW data and 2028+ horizon come from public sources (iren.com). No official logo is used nor is sponsorship suggested.',
+    contact: {
+      label: 'IREN General Management Contact',
+      href: 'https://www.iren.eu/contacts',
+      description: 'General management and corporate contact IREN',
+    },
+    print: {
+      label: 'Print',
+      title: 'IREN Enterprise AI — MONTEMOLIN-AIHUB Pilot',
+      date: 'Print date',
+      confidential: 'Confidential document — Unsolicited proposal',
+    },
     nav: {
       vision: 'Vision',
       plan: '90-Day Plan',
       qualification: 'Qualification 7/7',
       economics: 'Economics',
       decision: 'Decision',
+    },
+    executive: {
+      title: 'Executive Narrative',
+      subtitle: 'IREN Europe × MONTEMOLIN-AIHUB',
+      summary: 'Qualified demand validation prototype for enterprise AI services in the context of planned high-capacity computing infrastructures in the Iberian peninsula.',
+      context: 'Context',
+      contextText: 'IREN S.p.A. has announced plans for a 300 MW data center in Badajoz, with a 2028+ horizon. This infrastructure could enable high-performance enterprise AI services. However, there is no current operation or contractual relationship.',
+      approach: 'Approach',
+      approachText: 'This prototype structurally assesses whether there is real qualified demand for such services, using verifiable criteria and no invented data. The separation between simulated data and real evidence is fundamental.',
+      nextSteps: 'Next steps',
+      nextStepsList: [
+        'Validate the 7 qualification criteria with real evidence',
+        'Complete decision gates before WP2',
+        'Define stack, hosting, permissions and data model for backend',
+        'Implement authentication, roles, audit and GDPR protection',
+      ],
     },
     vision: {
       title: 'Pilot Vision',
